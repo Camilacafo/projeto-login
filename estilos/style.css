@@ -37,11 +37,20 @@ section#login{
     border-radius: 20px;
     box-shadow: 1px 1px 10px black;
 
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
+    display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+
 }
